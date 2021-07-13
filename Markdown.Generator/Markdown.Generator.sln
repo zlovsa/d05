@@ -1,8 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdown.Generator.Core", "Markdown.Generator.Core\Markdown.Generator.Core.csproj", "{6785BC64-03D4-4135-8935-B4A88CCAC2B8}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Markdown.Generator.Core", "Markdown.Generator.Core\Markdown.Generator.Core.csproj", "{6785BC64-03D4-4135-8935-B4A88CCAC2B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdown.Generator.Application", "Markdown.Generator.Application\Markdown.Generator.Application.csproj", "{0DBD3946-DA0F-4BD6-AD62-D24B00C7C9F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Markdown.Generator.Application", "Markdown.Generator.Application\Markdown.Generator.Application.csproj", "{0DBD3946-DA0F-4BD6-AD62-D24B00C7C9F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{72BD7F40-15FC-4013-B355-E284DCACC103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdown.Generator.Core.Tests", "Tests\Markdown.Generator.Core.Tests\Markdown.Generator.Core.Tests.csproj", "{787BABE1-B3E3-4365-B28B-09B334F898BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +25,18 @@ Global
 		{0DBD3946-DA0F-4BD6-AD62-D24B00C7C9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DBD3946-DA0F-4BD6-AD62-D24B00C7C9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DBD3946-DA0F-4BD6-AD62-D24B00C7C9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787BABE1-B3E3-4365-B28B-09B334F898BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787BABE1-B3E3-4365-B28B-09B334F898BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787BABE1-B3E3-4365-B28B-09B334F898BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787BABE1-B3E3-4365-B28B-09B334F898BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{787BABE1-B3E3-4365-B28B-09B334F898BB} = {72BD7F40-15FC-4013-B355-E284DCACC103}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {848FD8D5-0208-40C4-B261-4543AF479B30}
 	EndGlobalSection
 EndGlobal
